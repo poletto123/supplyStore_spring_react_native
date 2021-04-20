@@ -1,6 +1,10 @@
 package br.com.cyrella.controller;
 
 
+import br.com.cyrella.model.AtividadeAgendada;
+import br.com.cyrella.model.Ocorrencia;
+import br.com.cyrella.repository.AtividadeAgendadaRepository;
+import br.com.cyrella.repository.OcorrenciaRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,17 +13,25 @@ import java.util.List;
 
 @RestController("cyrella")
 public class Controller {
+    private AtividadeAgendadaRepository atividadeAgendadaRepository;
+
+    private OcorrenciaRepository ocorrenciaRepository;
+
+    public Controller(AtividadeAgendadaRepository atividadeAgendadaRepository, OcorrenciaRepository ocorrenciaRepository) {
+        this.atividadeAgendadaRepository = atividadeAgendadaRepository;
+        this.ocorrenciaRepository = ocorrenciaRepository;
+    }
 
     @GetMapping("atividades")
-    public List<?> atividades(){
+    public List<AtividadeAgendada> atividades(){
 
-        return Collections.emptyList();
+        return atividadeAgendadaRepository.findAll();
     }
 
     @GetMapping("ocorrencias")
-    public List<?> ocorrencias(){
+    public List<Ocorrencia> ocorrencias(){
 
-        return Collections.emptyList();
+        return ocorrenciaRepository.findAll();
     }
 
 }
