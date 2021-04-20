@@ -1,5 +1,8 @@
 package br.com.cyrella.repository;
 
-public class AtividadeAgendadaRepository {
+import br.com.cyrella.model.AtividadeAgendada;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AtividadeAgendadaRepository extends JpaRepository<AtividadeAgendada, Integer> {
 
 }
