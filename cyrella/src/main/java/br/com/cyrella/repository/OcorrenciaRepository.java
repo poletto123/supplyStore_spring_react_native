@@ -1,5 +1,7 @@
 package br.com.cyrella.repository;
 
-public class OcorrenciaRepository {
+import org.springframework.stereotype.Repository;
+
+public interface OcorrenciaRepository {
 
 }
