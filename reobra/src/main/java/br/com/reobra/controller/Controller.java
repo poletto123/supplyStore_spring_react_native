@@ -3,9 +3,10 @@ package br.com.reobra.controller;
 
 import java.util.List;
 
+import br.com.reobra.model.Loja;
+import br.com.reobra.model.Produto;
 import br.com.reobra.repository.LojaRepository;
 import br.com.reobra.repository.ProdutoRepository;
-import org.apache.coyote.Response;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -29,13 +30,13 @@ public class Controller {
     }
 
     @PostMapping("/loja")
-    public ResponseEntity<Loja> salvarLoja(Loja loja) {
+    public ResponseEntity<Loja> salvarLoja(@RequestBody Loja loja) {
         Loja novaLoja = lojaRepository.save(loja);
         return new ResponseEntity<Loja>(novaLoja, HttpStatus.CREATED);
     }
 
     @DeleteMapping("/loja/{id}")
-    public ResponseEntity<?> excluirLojas(@PathVariable("id") int id) {
+    public ResponseEntity<?> excluirLojas(@PathVariable("id") long id) {
         lojaRepository.deleteById(id);
         return new ResponseEntity<>(HttpStatus.OK);
     }
@@ -47,13 +48,13 @@ public class Controller {
     }
 
     @PostMapping("/produto")
-    public ResponseEntity<Produto> salvarProduto(Produto produto) {
+    public ResponseEntity<Produto> salvarProduto(@RequestBody Produto produto) {
         Produto novoProduto = produtoRepository.save(produto);
         return new ResponseEntity<Produto>(novoProduto, HttpStatus.CREATED);
     }
 
     @DeleteMapping("/produto/{id}")
-    public ResponseEntity<?> excluirProduto(@PathVariable("id") int id) {
+    public ResponseEntity<?> excluirProduto(@PathVariable("id") long id) {
         produtoRepository.deleteById(id);
         return new ResponseEntity<>(HttpStatus.OK);
     }
