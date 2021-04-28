@@ -1,13 +1,13 @@
-package br.com.cyrella;
+package br.com.reobra;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CyrellaApplication {
+public class ReobraApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CyrellaApplication.class, args);
+		SpringApplication.run(ReobraApplication.class, args);
 	}
 
 }

@@ -1,4 +1,4 @@
-package br.com.cyrella.controller;
+package br.com.reobra.controller;
 
 
 import java.util.List;
@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.cyrella.model.AtividadeAgendada;
-import br.com.cyrella.model.Ocorrencia;
-import br.com.cyrella.repository.AtividadeAgendadaRepository;
-import br.com.cyrella.repository.OcorrenciaRepository;
+import br.com.reobra.model.AtividadeAgendada;
+import br.com.reobra.model.Ocorrencia;
+import br.com.reobra.repository.AtividadeAgendadaRepository;
+import br.com.reobra.repository.OcorrenciaRepository;
 
 @RestController
 @RequestMapping("/cyrella")

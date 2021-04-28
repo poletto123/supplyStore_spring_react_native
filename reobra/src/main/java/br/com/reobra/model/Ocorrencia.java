@@ -1,4 +1,4 @@
-package br.com.cyrella.model;
+package br.com.reobra.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
