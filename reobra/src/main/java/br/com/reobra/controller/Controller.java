@@ -3,37 +3,59 @@ package br.com.reobra.controller;
 
 import java.util.List;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import br.com.reobra.model.AtividadeAgendada;
-import br.com.reobra.model.Ocorrencia;
-import br.com.reobra.repository.AtividadeAgendadaRepository;
-import br.com.reobra.repository.OcorrenciaRepository;
+import br.com.reobra.repository.LojaRepository;
+import br.com.reobra.repository.ProdutoRepository;
+import org.apache.coyote.Response;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/cyrella")
+@RequestMapping("/reobra")
 public class Controller {
-    private AtividadeAgendadaRepository atividadeAgendadaRepository;
+    private LojaRepository lojaRepository;
 
-    private OcorrenciaRepository ocorrenciaRepository;
+    private ProdutoRepository produtoRepository;
 
-    public Controller(AtividadeAgendadaRepository atividadeAgendadaRepository, OcorrenciaRepository ocorrenciaRepository) {
-        this.atividadeAgendadaRepository = atividadeAgendadaRepository;
-        this.ocorrenciaRepository = ocorrenciaRepository;
+    public Controller(LojaRepository lojaRepository, ProdutoRepository produtoRepository) {
+        this.lojaRepository = lojaRepository;
+        this.produtoRepository = produtoRepository;
     }
 
-    @GetMapping("/atividades")
-    public List<AtividadeAgendada> atividades(){
-
-        return atividadeAgendadaRepository.findAll();
+    @GetMapping("/loja")
+    public ResponseEntity<List<Loja>> listarLojas(){
+        List<Loja> lojas = lojaRepository.findAll();
+        return new ResponseEntity<List<Loja>>(lojas, HttpStatus.OK);
     }
 
-    @GetMapping("/ocorrencias")
-    public List<Ocorrencia> ocorrencias(){
+    @PostMapping("/loja")
+    public ResponseEntity<Loja> salvarLoja(Loja loja) {
+        Loja novaLoja = lojaRepository.save(loja);
+        return new ResponseEntity<Loja>(novaLoja, HttpStatus.CREATED);
+    }
 
-        return ocorrenciaRepository.findAll();
+    @DeleteMapping("/loja/{id}")
+    public ResponseEntity<?> excluirLojas(@PathVariable("id") int id) {
+        lojaRepository.deleteById(id);
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
+
+    @GetMapping("/produto")
+    public ResponseEntity<List<Produto>> listarProdutos(){
+        List<Produto> produtos = produtoRepository.findAll();
+        return new ResponseEntity<List<Produto>>(produtos, HttpStatus.OK);
+    }
+
+    @PostMapping("/produto")
+    public ResponseEntity<Produto> salvarProduto(Produto produto) {
+        Produto novoProduto = produtoRepository.save(produto);
+        return new ResponseEntity<Produto>(novoProduto, HttpStatus.CREATED);
+    }
+
+    @DeleteMapping("/produto/{id}")
+    public ResponseEntity<?> excluirProduto(@PathVariable("id") int id) {
+        produtoRepository.deleteById(id);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 
 }
