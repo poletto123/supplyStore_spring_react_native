@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		6E230D245C5FC1CA75D89B04 /* libPods-reobraReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B99275CAB1E684220C9FC0C0 /* libPods-reobraReact.a */; };
+		730F6FD738CB712EF667439E /* libPods-reobraReact-reobraReactTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE617B1A0D59224B95B68955 /* libPods-reobraReact-reobraReactTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		B716382E707CB0ECC1044353 /* libPods-reobraReact-reobraReactTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAACE1D45405763F59B5F9AF /* libPods-reobraReact-reobraReactTests.a */; };
+		C791E2F3C4D750E5CA277F9D /* libPods-reobraReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABE7128B65E0521EDAED54B /* libPods-reobraReact.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +36,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reobraReact/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reobraReact/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reobraReact/main.m; sourceTree = "<group>"; };
-		70413ABC20A7AABB72B39FD8 /* Pods-reobraReact-reobraReactTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reobraReact-reobraReactTests.debug.xcconfig"; path = "Target Support Files/Pods-reobraReact-reobraReactTests/Pods-reobraReact-reobraReactTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A08B41DB923BE655970A6CA /* Pods-reobraReact-reobraReactTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reobraReact-reobraReactTests.release.xcconfig"; path = "Target Support Files/Pods-reobraReact-reobraReactTests/Pods-reobraReact-reobraReactTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reobraReact/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9BC9F79610FC40F119A1ACDB /* Pods-reobraReact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reobraReact.release.xcconfig"; path = "Target Support Files/Pods-reobraReact/Pods-reobraReact.release.xcconfig"; sourceTree = "<group>"; };
-		AAACE1D45405763F59B5F9AF /* libPods-reobraReact-reobraReactTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reobraReact-reobraReactTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAE606D7DC57B0A0B29AE2FB /* Pods-reobraReact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reobraReact.debug.xcconfig"; path = "Target Support Files/Pods-reobraReact/Pods-reobraReact.debug.xcconfig"; sourceTree = "<group>"; };
-		B99275CAB1E684220C9FC0C0 /* libPods-reobraReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reobraReact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7D097E3CA181DF15775D4C1 /* Pods-reobraReact-reobraReactTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reobraReact-reobraReactTests.release.xcconfig"; path = "Target Support Files/Pods-reobraReact-reobraReactTests/Pods-reobraReact-reobraReactTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DEBD926EE1586E55F524375 /* Pods-reobraReact-reobraReactTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reobraReact-reobraReactTests.debug.xcconfig"; path = "Target Support Files/Pods-reobraReact-reobraReactTests/Pods-reobraReact-reobraReactTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AABE7128B65E0521EDAED54B /* libPods-reobraReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reobraReact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE617B1A0D59224B95B68955 /* libPods-reobraReact-reobraReactTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reobraReact-reobraReactTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CFD8BC65890C502CAC49B6 /* Pods-reobraReact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reobraReact.debug.xcconfig"; path = "Target Support Files/Pods-reobraReact/Pods-reobraReact.debug.xcconfig"; sourceTree = "<group>"; };
+		ECBEB89E055C407EF8918CCA /* Pods-reobraReact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reobraReact.release.xcconfig"; path = "Target Support Files/Pods-reobraReact/Pods-reobraReact.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B716382E707CB0ECC1044353 /* libPods-reobraReact-reobraReactTests.a in Frameworks */,
+				730F6FD738CB712EF667439E /* libPods-reobraReact-reobraReactTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E230D245C5FC1CA75D89B04 /* libPods-reobraReact.a in Frameworks */,
+				C791E2F3C4D750E5CA277F9D /* libPods-reobraReact.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,24 +96,12 @@
 			name = reobraReact;
 			sourceTree = "<group>";
 		};
-		191813695FC43A235EF3EF2C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AAE606D7DC57B0A0B29AE2FB /* Pods-reobraReact.debug.xcconfig */,
-				9BC9F79610FC40F119A1ACDB /* Pods-reobraReact.release.xcconfig */,
-				70413ABC20A7AABB72B39FD8 /* Pods-reobraReact-reobraReactTests.debug.xcconfig */,
-				D7D097E3CA181DF15775D4C1 /* Pods-reobraReact-reobraReactTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				B99275CAB1E684220C9FC0C0 /* libPods-reobraReact.a */,
-				AAACE1D45405763F59B5F9AF /* libPods-reobraReact-reobraReactTests.a */,
+				AABE7128B65E0521EDAED54B /* libPods-reobraReact.a */,
+				DE617B1A0D59224B95B68955 /* libPods-reobraReact-reobraReactTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -133,7 +121,7 @@
 				00E356EF1AD99517003FC87E /* reobraReactTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				191813695FC43A235EF3EF2C /* Pods */,
+				9E5F8740BE143899135D4850 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,6 +137,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9E5F8740BE143899135D4850 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2CFD8BC65890C502CAC49B6 /* Pods-reobraReact.debug.xcconfig */,
+				ECBEB89E055C407EF8918CCA /* Pods-reobraReact.release.xcconfig */,
+				8DEBD926EE1586E55F524375 /* Pods-reobraReact-reobraReactTests.debug.xcconfig */,
+				6A08B41DB923BE655970A6CA /* Pods-reobraReact-reobraReactTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,12 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reobraReactTests" */;
 			buildPhases = (
-				408285FE4C6EAA27F7AB11AE /* [CP] Check Pods Manifest.lock */,
+				87FCCBCC441C83C2411FC83E /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				A0A81EDCD5738671C1212E18 /* [CP] Embed Pods Frameworks */,
-				C4EFDF97A487078351B99D4F /* [CP] Copy Pods Resources */,
+				265331CB4C882E154B3A6010 /* [CP] Embed Pods Frameworks */,
+				5F094E863559E45EDC76A730 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +177,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reobraReact" */;
 			buildPhases = (
-				719CFBC6EFFB5DD22FCA4BCF /* [CP] Check Pods Manifest.lock */,
+				1DD5B56C78941D0BACFBF8D2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				FA69D6D657365CA548200E66 /* [CP] Embed Pods Frameworks */,
-				BE50B7F5206A383B1F76B78B /* [CP] Copy Pods Resources */,
+				E44C1EFE2D21E596AE473A53 /* [CP] Embed Pods Frameworks */,
+				C23118D2BBE59560E99F296F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,29 +265,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		408285FE4C6EAA27F7AB11AE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reobraReact-reobraReactTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		719CFBC6EFFB5DD22FCA4BCF /* [CP] Check Pods Manifest.lock */ = {
+		1DD5B56C78941D0BACFBF8D2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -309,7 +287,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A0A81EDCD5738671C1212E18 /* [CP] Embed Pods Frameworks */ = {
+		265331CB4C882E154B3A6010 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,24 +304,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reobraReact-reobraReactTests/Pods-reobraReact-reobraReactTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BE50B7F5206A383B1F76B78B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reobraReact/Pods-reobraReact-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reobraReact/Pods-reobraReact-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reobraReact/Pods-reobraReact-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C4EFDF97A487078351B99D4F /* [CP] Copy Pods Resources */ = {
+		5F094E863559E45EDC76A730 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,7 +321,46 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reobraReact-reobraReactTests/Pods-reobraReact-reobraReactTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FA69D6D657365CA548200E66 /* [CP] Embed Pods Frameworks */ = {
+		87FCCBCC441C83C2411FC83E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reobraReact-reobraReactTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C23118D2BBE59560E99F296F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reobraReact/Pods-reobraReact-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reobraReact/Pods-reobraReact-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reobraReact/Pods-reobraReact-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E44C1EFE2D21E596AE473A53 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -429,7 +429,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70413ABC20A7AABB72B39FD8 /* Pods-reobraReact-reobraReactTests.debug.xcconfig */;
+			baseConfigurationReference = 8DEBD926EE1586E55F524375 /* Pods-reobraReact-reobraReactTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -456,7 +456,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7D097E3CA181DF15775D4C1 /* Pods-reobraReact-reobraReactTests.release.xcconfig */;
+			baseConfigurationReference = 6A08B41DB923BE655970A6CA /* Pods-reobraReact-reobraReactTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -480,7 +480,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAE606D7DC57B0A0B29AE2FB /* Pods-reobraReact.debug.xcconfig */;
+			baseConfigurationReference = E2CFD8BC65890C502CAC49B6 /* Pods-reobraReact.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -506,7 +506,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BC9F79610FC40F119A1ACDB /* Pods-reobraReact.release.xcconfig */;
+			baseConfigurationReference = ECBEB89E055C407EF8918CCA /* Pods-reobraReact.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
