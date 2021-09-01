@@ -9,12 +9,17 @@ export default SideMenuView = props => {
       <View style={styles.navSectionStyle}>
         <TouchableOpacity>
           <View style={styles.navItemStyle}>
-            <Text style={styles.navItemTitleStyle}>Lugares</Text>
+            <Text style={styles.navItemTitleStyle}>Home</Text>
           </View>
         </TouchableOpacity>
         <TouchableOpacity>
           <View style={styles.navItemStyle}>
-            <Text style={styles.navItemTitleStyle}>Meus Lugares</Text>
+            <Text style={styles.navItemTitleStyle}>Produtos</Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <View style={styles.navItemStyle}>
+            <Text style={styles.navItemTitleStyle}>Carrinho</Text>
           </View>
         </TouchableOpacity>
       </View>

@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, Text, TouchableOpacity} from 'react-native';
+import {Icon} from 'react-native-elements/dist/icons/Icon';
 export default class DefaultController extends React.Component {
   //Adicionando a variavel navigationOptions
   static navigationOptions = ({navigation}) => {
@@ -24,7 +25,7 @@ export default class DefaultController extends React.Component {
               paddingBottom: 10,
               paddingTop: 10,
             }}>
-            <Text>Menu</Text>
+            <Icon name="navicon" type="font-awesome" color="black" />
           </View>
         </TouchableOpacity>
       );

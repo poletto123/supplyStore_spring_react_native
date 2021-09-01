@@ -5,7 +5,7 @@ export default DetailView = props => {
   return (
     //Chamando o View e passando o props count_info
     <View>
-      <Text style={{fontSize: 40}}>{text}</Text>
+      <Text style={{fontSize: 40}}>Esta é a tela interna</Text>
     </View>
   );
 };

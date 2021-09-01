@@ -11,7 +11,12 @@ const AppLogged = createDrawerNavigator(
   {
     //Aqui criamos um StackNavigator que fara o fluxo de navegacao entre essas telas
     Places: createStackNavigator({
-      Home: HomeController,
+      Home: {
+        screen: HomeController,
+        navigationOptions: {
+          title: null,
+        },
+      },
       Details: DetailController,
     }),
   },
