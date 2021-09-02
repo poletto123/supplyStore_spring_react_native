@@ -3,7 +3,7 @@ import React from 'react';
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import {createDrawerNavigator} from 'react-navigation-drawer';
-import HomeController from '../screens/Home/Controller/HomeController';
+import ProdutoController from '../screens/Home/Controller/ProdutoController';
 import DetailController from '../screens/Detail/Controller/DetailController';
 import SideMenu from '../screens/SideMenu/Controller/SideMenuController';
 //Aqui criamos o DrawerNavigator. Ele é um objeto que criará o header
@@ -11,13 +11,18 @@ const AppLogged = createDrawerNavigator(
   {
     //Aqui criamos um StackNavigator que fara o fluxo de navegacao entre essas telas
     Places: createStackNavigator({
-      Home: {
-        screen: HomeController,
+      Produtos: {
+        screen: ProdutoController,
         navigationOptions: {
-          title: null,
+          headerTitleAlign: 'center',
         },
       },
-      Details: DetailController,
+      Detalhe: {
+        screen: DetailController,
+        navigationOptions: {
+          headerTitleAlign: 'center',
+        },
+      },
     }),
   },
   {

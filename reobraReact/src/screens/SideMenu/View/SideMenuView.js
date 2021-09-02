@@ -9,17 +9,32 @@ export default SideMenuView = props => {
       <View style={styles.navSectionStyle}>
         <TouchableOpacity>
           <View style={styles.navItemStyle}>
-            <Text style={styles.navItemTitleStyle}>Home</Text>
-          </View>
-        </TouchableOpacity>
-        <TouchableOpacity>
-          <View style={styles.navItemStyle}>
             <Text style={styles.navItemTitleStyle}>Produtos</Text>
           </View>
         </TouchableOpacity>
         <TouchableOpacity>
           <View style={styles.navItemStyle}>
+            <Text style={styles.navItemTitleStyle}>Pedido</Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <View style={styles.navItemStyle}>
             <Text style={styles.navItemTitleStyle}>Carrinho</Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <View style={styles.navItemStyle}>
+            <Text style={styles.navItemTitleStyle}>Perfil</Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <View style={styles.navItemStyle}>
+            <Text style={styles.navItemTitleStyle}>Contato</Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <View style={styles.navItemStyle}>
+            <Text style={styles.navItemTitleStyle}>Sobre</Text>
           </View>
         </TouchableOpacity>
       </View>

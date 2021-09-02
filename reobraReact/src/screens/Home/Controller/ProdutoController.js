@@ -9,7 +9,7 @@ class HomeController extends DefaultController {
 
   goToDetail = () => {
     //Aqui estamos chamando a classe DetailController usando o nome Details
-    this.props.navigation.navigate('Details', {
+    this.props.navigation.navigate('Detalhe', {
       showBackButton: true,
     });
   };
