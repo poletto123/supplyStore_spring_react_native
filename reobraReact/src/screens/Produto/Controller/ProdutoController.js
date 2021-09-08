@@ -1,12 +1,12 @@
 import React from 'react';
-import DetailView from '../View/DetailView';
+import ProdutoView from '../View/ProdutoView';
 import DefaultController from '../../../components/DefaultController';
-class DetailController extends DefaultController {
+class ProdutoController extends DefaultController {
   render() {
     return (
       //Chamando o View e passando o props count_info
-      <DetailView />
+      <ProdutoView />
     );
   }
 }
-export default DetailController;
+export default ProdutoController;

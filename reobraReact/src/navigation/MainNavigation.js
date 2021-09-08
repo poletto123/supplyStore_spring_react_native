@@ -4,8 +4,8 @@ import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import {createDrawerNavigator} from 'react-navigation-drawer';
 import {DrawerActions} from 'react-navigation-drawer';
-import ProdutoController from '../screens/Home/Controller/ProdutoController';
-import DetailController from '../screens/Detail/Controller/DetailController';
+import ListaProdutoController from '../screens/ListaProduto/Controller/ListaProdutoController';
+import ProdutoController from '../screens/Produto/Controller/ProdutoController';
 import LeftMenu from '../screens/SideMenu/LeftMenu/Controller/LeftMenuController';
 import RightMenu from '../screens/SideMenu/RightMenu/Controller/RightMenuController';
 
@@ -14,13 +14,13 @@ const LeftDrawerStack = createDrawerNavigator(
     //Aqui criamos um StackNavigator que fara o fluxo de navegacao entre essas telas
     Places: createStackNavigator({
       Produtos: {
-        screen: ProdutoController,
+        screen: ListaProdutoController,
         navigationOptions: {
           headerTitleAlign: 'center',
         },
       },
-      Detalhe: {
-        screen: DetailController,
+      Produto: {
+        screen: ProdutoController,
         navigationOptions: {
           headerTitleAlign: 'center',
         },

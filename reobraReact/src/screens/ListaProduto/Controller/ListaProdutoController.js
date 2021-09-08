@@ -1,15 +1,15 @@
 import React from 'react';
-import HomeView from '../View/HomeView';
+import ListaProdutoView from '../View/ListaProdutoView';
 import DefaultController from '../../../components/DefaultController';
 
-class HomeController extends DefaultController {
+class ListaProdutoController extends DefaultController {
   constructor(props) {
     super(props);
   }
 
-  goToDetail = () => {
+  goToProduto = () => {
     //Aqui estamos chamando a classe DetailController usando o nome Details
-    this.props.navigation.navigate('Detalhe', {
+    this.props.navigation.navigate('Produto', {
       showBackButton: true,
     });
   };
@@ -17,11 +17,11 @@ class HomeController extends DefaultController {
   render() {
     return (
       //Chamando o View e passando o props count_info
-      <HomeView
-        goToDetail={this.goToDetail} //props onButtonPressed e passando o método
+      <ListaProdutoView
+        goToProduto={this.goToProduto} //props onButtonPressed e passando o método
       />
     );
   }
 }
 
-export default HomeController;
+export default ListaProdutoController;
