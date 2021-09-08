@@ -16,8 +16,8 @@ export default class DefaultController extends React.Component {
     //Se não receber o parametro showBackButton ou se ele for false,
     // mostra botão de menu para mostrar Sidebar
     if (!navigation.getParam('showBackButton', false)) {
-      let view = (
-        <TouchableOpacity onPress={() => navigation.toggleDrawer()}>
+      let headerLeft = (
+        <TouchableOpacity onPress={() => navigation.toggleLeftDrawer()}>
           <View
             style={{
               paddingLeft: 20,
@@ -30,8 +30,24 @@ export default class DefaultController extends React.Component {
         </TouchableOpacity>
       );
       //Adicionando botão menu na lateral esquerda
-      navigationProps = {...navigationProps, headerLeft: () => view};
+      navigationProps = {...navigationProps, headerLeft: () => headerLeft};
     }
+
+    let headerRight = (
+      <TouchableOpacity onPress={() => navigation.toggleRightDrawer()}>
+        <View
+          style={{
+            paddingLeft: 20,
+            paddingRight: 20,
+            paddingBottom: 10,
+            paddingTop: 10,
+          }}>
+          <Icon name="shopping-cart" type="font-awesome" color="black" />
+        </View>
+      </TouchableOpacity>
+    );
+    navigationProps = {...navigationProps, headerRight: () => headerRight};
+
     //Retornando as opções
     return navigationProps;
   };

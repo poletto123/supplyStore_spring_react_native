@@ -1,8 +1,8 @@
 import React from 'react';
 import {Text, View, TouchableOpacity} from 'react-native';
-import styles from './SideMenuStyle';
+import styles from './LeftMenuStyle';
 
-export default SideMenuView = props => {
+export default LeftMenuView = props => {
   return (
     //Chamando o View e montando o menu
     <View style={styles.container}>
