@@ -7,24 +7,19 @@ export default LeftMenuView = props => {
     //Chamando o View e montando o menu
     <View style={styles.container}>
       <View style={styles.navSectionStyle}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={props.goToListaProduto}>
           <View style={styles.navItemStyle}>
             <Text style={styles.navItemTitleStyle}>Produtos</Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={props.goToPedidos}>
           <View style={styles.navItemStyle}>
-            <Text style={styles.navItemTitleStyle}>Pedido</Text>
+            <Text style={styles.navItemTitleStyle}>Meus pedidos</Text>
           </View>
         </TouchableOpacity>
         <TouchableOpacity>
           <View style={styles.navItemStyle}>
-            <Text style={styles.navItemTitleStyle}>Carrinho</Text>
-          </View>
-        </TouchableOpacity>
-        <TouchableOpacity>
-          <View style={styles.navItemStyle}>
-            <Text style={styles.navItemTitleStyle}>Perfil</Text>
+            <Text style={styles.navItemTitleStyle}>Meu perfil</Text>
           </View>
         </TouchableOpacity>
         <TouchableOpacity>

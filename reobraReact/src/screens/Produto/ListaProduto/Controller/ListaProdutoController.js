@@ -1,17 +1,15 @@
 import React from 'react';
 import ListaProdutoView from '../View/ListaProdutoView';
-import DefaultController from '../../../components/DefaultController';
+import HeaderController from '../../../components/HeaderController';
 
-class ListaProdutoController extends DefaultController {
+class ListaProdutoController extends HeaderController {
   constructor(props) {
     super(props);
   }
 
   goToProduto = () => {
     //Aqui estamos chamando a classe DetailController usando o nome Details
-    this.props.navigation.navigate('Produto', {
-      showBackButton: true,
-    });
+    this.props.navigation.navigate('Produto');
   };
 
   render() {

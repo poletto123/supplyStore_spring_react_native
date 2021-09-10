@@ -4,8 +4,10 @@ import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import {createDrawerNavigator} from 'react-navigation-drawer';
 import {DrawerActions} from 'react-navigation-drawer';
-import ListaProdutoController from '../screens/ListaProduto/Controller/ListaProdutoController';
-import ProdutoController from '../screens/Produto/Controller/ProdutoController';
+import ListaProdutoController from '../screens/Produto/ListaProduto/Controller/ListaProdutoController';
+import DetalheProdutoController from '../screens/Produto/DetalheProduto/Controller/DetalheProdutoController';
+import DetalhePedidoController from '../screens/Pedido/DetalhePedido/Controller/DetalhePedidoController';
+
 import LeftMenu from '../screens/SideMenu/LeftMenu/Controller/LeftMenuController';
 import RightMenu from '../screens/SideMenu/RightMenu/Controller/RightMenuController';
 
@@ -20,7 +22,13 @@ const LeftDrawerStack = createDrawerNavigator(
         },
       },
       Produto: {
-        screen: ProdutoController,
+        screen: DetalheProdutoController,
+        navigationOptions: {
+          headerTitleAlign: 'center',
+        },
+      },
+      Pedidos: {
+        screen: DetalhePedidoController,
         navigationOptions: {
           headerTitleAlign: 'center',
         },

@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, TouchableOpacity} from 'react-native';
 import {Icon} from 'react-native-elements/dist/icons/Icon';
-export default class DefaultController extends React.Component {
+export default class HeaderController extends React.Component {
   //Adicionando a variavel navigationOptions
   static navigationOptions = ({navigation}) => {
     let navigationProps = null;

@@ -5,13 +5,14 @@ import {View, Text, TouchableOpacity} from 'react-native';
 const ListaProdutoView = props => {
   return (
     <View style={styles.container}>
-      <Text style={styles.textInfo}>Reobra</Text>
+      <Text style={styles.textInfo}>Tela de produtos</Text>
       <TouchableOpacity onPress={props.goToProduto}>
         <View style={styles.viewButton}>
-          <Text>Tela interna</Text>
+          <Text>Detalhe do produto</Text>
         </View>
       </TouchableOpacity>
     </View>
   );
 };
+
 export default ListaProdutoView;
