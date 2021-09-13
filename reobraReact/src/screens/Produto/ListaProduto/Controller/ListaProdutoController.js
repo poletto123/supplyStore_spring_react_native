@@ -1,6 +1,6 @@
 import React from 'react';
 import ListaProdutoView from '../View/ListaProdutoView';
-import HeaderController from '../../../components/HeaderController';
+import HeaderController from '../../../../components/HeaderController';
 
 class ListaProdutoController extends HeaderController {
   constructor(props) {

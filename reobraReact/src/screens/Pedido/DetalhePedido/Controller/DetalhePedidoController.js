@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderController from '../../../components/HeaderController';
+import HeaderController from '../../../../components/HeaderController';
 import DetalhePedidoView from '../View/DetalhePedidoView';
 
 class DetalhePedidoController extends HeaderController {
