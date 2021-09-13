@@ -1,5 +1,5 @@
 import React from 'react';
-import SideMenuView from '../View/LeftMenuView';
+import LeftMenuView from '../View/LeftMenuView';
 class LeftMenuController extends React.Component {
   constructor(props) {
     super(props);
@@ -32,7 +32,7 @@ class LeftMenuController extends React.Component {
 
   render() {
     return (
-      <SideMenuView
+      <LeftMenuView
         goToListaProduto={this.goToListaProduto}
         goToPedidos={this.goToPedidos}
         goToPerfil={this.goToPerfil}
