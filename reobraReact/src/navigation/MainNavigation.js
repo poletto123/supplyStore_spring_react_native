@@ -10,6 +10,9 @@ import DetalhePedidoController from '../screens/Pedido/DetalhePedido/Controller/
 
 import LeftMenu from '../screens/SideMenu/LeftMenu/Controller/LeftMenuController';
 import RightMenu from '../screens/SideMenu/RightMenu/Controller/RightMenuController';
+import PerfilController from '../screens/Perfil/Controller/PerfilController';
+import ContatoController from '../screens/Contato/Controller/ContatoController';
+import SobreController from '../screens/Sobre/Controller/SobreController';
 
 const LeftDrawerStack = createDrawerNavigator(
   {
@@ -29,6 +32,24 @@ const LeftDrawerStack = createDrawerNavigator(
       },
       Pedidos: {
         screen: DetalhePedidoController,
+        navigationOptions: {
+          headerTitleAlign: 'center',
+        },
+      },
+      Perfil: {
+        screen: PerfilController,
+        navigationOptions: {
+          headerTitleAlign: 'center',
+        },
+      },
+      Contato: {
+        screen: ContatoController,
+        navigationOptions: {
+          headerTitleAlign: 'center',
+        },
+      },
+      Sobre: {
+        screen: SobreController,
         navigationOptions: {
           headerTitleAlign: 'center',
         },

@@ -15,11 +15,29 @@ class LeftMenuController extends React.Component {
     this.props.navigation.navigate('Produtos');
   };
 
+  goToPerfil = () => {
+    //Aqui estamos chamando a classe DetailController usando o nome Details
+    this.props.navigation.navigate('Perfil');
+  };
+
+  goToContato = () => {
+    //Aqui estamos chamando a classe DetailController usando o nome Details
+    this.props.navigation.navigate('Contato');
+  };
+
+  goToSobre = () => {
+    //Aqui estamos chamando a classe DetailController usando o nome Details
+    this.props.navigation.navigate('Sobre');
+  };
+
   render() {
     return (
       <SideMenuView
         goToListaProduto={this.goToListaProduto}
         goToPedidos={this.goToPedidos}
+        goToPerfil={this.goToPerfil}
+        goToContato={this.goToContato}
+        goToSobre={this.goToSobre}
       />
     );
   }

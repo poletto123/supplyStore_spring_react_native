@@ -1,8 +1,8 @@
 import React from 'react';
-import RightMenuView from '../View/RightMenuView';
+import CarrinhoView from '../../../Carrinho/View/CarrinhoView';
 class RightMenuController extends React.Component {
   render() {
-    return <RightMenuView />;
+    return <CarrinhoView />;
   }
 }
 export default RightMenuController;

@@ -1,9 +1,9 @@
 import React from 'react';
-import {Text, View, TouchableOpacity} from 'react-native';
+import {Text, View} from 'react-native';
 import {FlatList} from 'react-native-gesture-handler';
-import styles from './RightMenuStyle';
+import styles from './CarrinhoStyle';
 
-export default RightMenuView = props => {
+export default CarrinhoView = props => {
   return (
     <View style={styles.container}>
       <View style={styles.navSectionStyle}>

@@ -17,17 +17,17 @@ export default LeftMenuView = props => {
             <Text style={styles.navItemTitleStyle}>Meus pedidos</Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={props.goToPerfil}>
           <View style={styles.navItemStyle}>
             <Text style={styles.navItemTitleStyle}>Meu perfil</Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={props.goToContato}>
           <View style={styles.navItemStyle}>
             <Text style={styles.navItemTitleStyle}>Contato</Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={props.goToSobre}>
           <View style={styles.navItemStyle}>
             <Text style={styles.navItemTitleStyle}>Sobre</Text>
           </View>
