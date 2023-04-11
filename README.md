@@ -2,7 +2,7 @@
 
 ## About
 
-This is a university POC made with the idea of creating a network of small construction supply shops with a order managing app. It works similarly to a food app, with the difference of having a chat between the parties, and deliveries being arranged independently. This ensures that small business get more exposure to clients outside their area, also benefitting customers that don't want/need to go to big chains.
+This is a university POC made in late 2021 with the idea of creating a network of small construction supply shops within an order manager app. It works similarly to a food app, with the difference of having a chat between the parties, and deliveries being arranged independently. This ensures that small business get more exposure to clients outside their area, also benefitting customers that don't want/need to go to big chains.
 
 ## Technologies used
 
